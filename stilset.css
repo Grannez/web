@@ -13,4 +13,26 @@ body {
 	margin-left: 500px;
 	text-align: center;
     max-width: 600px;
-}
+	}
+
+	nav ul {
+	margin-left: 477px;
+	background: #efefef; 
+	padding: 0 20px;
+	border-radius: 20px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	}
+
+	nav ul li {
+	float: left;
+	}
+	nav ul li:{
+	background: #4b545f;	
+	}
+	
+	nav ul li a {
+	display: block; padding: 25px 40px;
+	color: #757575; text-decoration: none;
+	}
