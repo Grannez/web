@@ -4,9 +4,20 @@
 	{
     background-color:#fe001a
 	}
+	.indexh1
+	{
+	margin: 15px;
+	padding: 15px;
+	}
+	
+	.rssfeed
+	{
+    display: table-row;
+    height: 0;
+	}
 	
 	p.omoss 
-	{
+	{	
 	float: left;
 	margin: 30px;
 	padding: 30px;

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+	<rss version="2.0">
+		<channel>
+			<title>Coca Cola</title>
+			<link>CocaCola.html</link>
+			<description>Rss feeden til Coca Cola</description>
+			<language>no</language>
+		<item>
+			<title>Eventer</title>
+			<description>Tidligere events</description>
+			<link>http://www.cokecce.com/news-and-events</link>
+		</item>
+	</channel>
+</rss>
