@@ -64,4 +64,11 @@
 	width: 20%;
 	margin: 30px;
 	padding: 30px;
-	}	
+	}
+		
+	@media only screen and (max-width: 600px) {
+    .banner 
+    	{
+        width:100%;
+    	}
+    }
