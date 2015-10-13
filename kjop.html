@@ -27,6 +27,7 @@
             Antall:<br>
             <input type="number" id="tallfelt"></input> 
             <button type="button" id="knapp">Kjøp</button>
+            <div id="utskrift1"></div>
         <h2>Fanta</h2>
             <img src="Fanta.jpg" alt="Fanta" style="width:50px;height:50px;">
             Antall:<br>
@@ -43,6 +44,21 @@
             <input type="number" id="tallfelt4"></input>
             <button type="button" id="knapp4">Kjøp</button>
             
+    <script>
+        function oppstart () {
+            document.getElementById("knapp").onclick = jadda1;
+            document.getElementById("knapp2").onclick = jadda2;
+            document.getElementById("knapp3").onclick = jadda3;
+            document.getElementById("knapp4").onclick = jadda4;
+            
+        }
+        
+        function jadda1 () {
+            document.getElementById("utskrift1").innerHTML = tallfelt.value;
+            
+        }
+            
+</script>
 
         
 	</body>
