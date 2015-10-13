@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Sprite</title>
+		<title>Kjop</title>
 		<meta charset="UTF-8">
 		<style type="text/css"></style>
 		<link rel="stylesheet" type="text/css" href="stilset.css">
@@ -47,6 +47,7 @@
             <div id="utskrift2"></div>
             <div id="utskrift3"></div>
             <div id="utskrift4"></div>
+            <button type="button" id="knapp5">Kjøp!</button>
 
     <script>
         
@@ -54,6 +55,7 @@
             document.getElementById("knapp2").onclick = jadda2;
             document.getElementById("knapp3").onclick = jadda3;
             document.getElementById("knapp4").onclick = jadda4;
+            document.getElementById("knapp5").onclick = jadda5;
             
        
         
@@ -77,6 +79,9 @@
             
         }
         
+        function jadda5 () {
+            document.getElementById("knapp").onclick = alert("Takk for kjøpet, Velkommen tilbake! Du kjøper, Vi leverer!") ;
+        }
 </script>
 
         
