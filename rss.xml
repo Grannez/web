@@ -6,8 +6,8 @@
 			<description>Rss feeden til Coca Cola</description>
 			<language>no</language>
 		<item>
-			<title>Eventer</title>
-			<description>Tidligere events</description>
+			<title>Eventer og nyheter</title>
+			<description>Tidligere events og nyheter fra coca cola</description>
 			<link>http://www.cokecce.com/news-and-events</link>
 		</item>
 	</channel>

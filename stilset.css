@@ -15,7 +15,11 @@
     display: table-row;
     height: 0;
 	}
-	
+	.footer
+	{
+    display: table-row;
+    height: 0;
+	}
 	p.omoss 
 	{	
 	float: left;
