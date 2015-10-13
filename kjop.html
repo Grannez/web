@@ -26,36 +26,57 @@
             <img src="coca-cola.jpg" alt="coca cola" style="width:50px;height:50px;">
             Antall:<br>
             <input type="number" id="tallfelt"></input> 
-            <button type="button" id="knapp">Kjøp</button>
-            <div id="utskrift1"></div>
+            <button type="button" id="knapp">Legg til Handlevogn</button>
         <h2>Fanta</h2>
             <img src="Fanta.jpg" alt="Fanta" style="width:50px;height:50px;">
             Antall:<br>
             <input type="number" id="tallfelt2"></input>
-            <button type="button" id="knapp2">Kjøp</button>
+            <button type="button" id="knapp2">Legg til Handlevogn</button>
         <h2>Urge</h2>
             <img src="urgeflaske2.jpg" alt="Urge" style="width:50px;height:50px;">
             Antall:<br>
             <input type="number" id="tallfelt3"></input>
-            <button type="button" id="knapp3">Kjøp</button>
+            <button type="button" id="knapp3">Legg til Handlevogn</button>
         <h2>Sprite</h2>
             <img src="sprite.jpg" alt="Sprite" style="width:50px;height:50px;">
             Antall:<br>
             <input type="number" id="tallfelt4"></input>
-            <button type="button" id="knapp4">Kjøp</button>
-            
+            <button type="button" id="knapp4">Legg til Handlevogn</button>
+        <h2>Handlevogn</h2>
+            <div id="utskrift1"></div>
+            <div id="utskrift2"></div>
+            <div id="utskrift3"></div>
+            <div id="utskrift4"></div>
+
     <script>
         
             document.getElementById("knapp").onclick = jadda1;
-        
+            document.getElementById("knapp2").onclick = jadda2;
+            document.getElementById("knapp3").onclick = jadda3;
+            document.getElementById("knapp4").onclick = jadda4;
             
        
         
         function jadda1 () {
-            document.getElementById("utskrift1").innerHTML = tallfelt.value;
+            document.getElementById("utskrift1").innerHTML = "CocaCola til " + (tallfelt.value) * 15 + " kr";
             
         }
+        
+        function jadda2 () {
+            document.getElementById("utskrift2").innerHTML = "Fanta til " + (tallfelt2.value) * 15 + " kr";
             
+        }
+        
+         function jadda3 () {
+            document.getElementById("utskrift3").innerHTML = "Urge til " + (tallfelt3.value) * 15 + " kr";
+            
+        }
+        
+        function jadda4 () {
+            document.getElementById("utskrift4").innerHTML = "Sprite til " + (tallfelt4.value) * 15 + " kr";
+            
+        }
+        
 </script>
 
         
